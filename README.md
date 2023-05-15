@@ -7,7 +7,7 @@ A classic snake game implemented using JavaScript and HTML5 Canvas.
 
 ## Demo : 
 
-
+https://mariamgogaladze.github.io/Snake-game/
 
 ## Description
 
