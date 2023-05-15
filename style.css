@@ -1,0 +1,54 @@
+body{
+  background-color: #026670;
+  overflow: hidden;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#myCanvas {
+ width: 500px;
+ height: 500px;
+ background-color: #9fedd7;
+ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+#over{
+  position: absolute;
+  font-size: 120px;
+  color: #edeae5;
+  animation: slide-down 0.5s ;
+  display: none;
+ 
+}
+@keyframes slide-down {
+  0% { opacity: 0; transform: translateY(-50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+#startAgain{
+  margin-top: 300px;
+  border: none;
+  color:#1f2833;
+  padding: 40px;
+  border-radius:50px;
+  background: linear-gradient(to right, #edeae5, #9fedd7,#026670);
+  cursor: pointer;
+  font-size: 20px;
+  display: none;
+}
+
+#startAgain:hover {
+  transform: scale(1.1) rotate(-5deg);
+}
+#score{
+  color:#fce181 ;
+  font-size:30px;
+  margin-top: 10px;
+  margin-right: 400px;
+}
